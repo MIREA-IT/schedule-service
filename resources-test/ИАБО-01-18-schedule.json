@@ -1,0 +1,847 @@
+{
+  "group_code": "ИАБО-01-18",
+  "odd_week": {
+    "monday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "кр. 5 н. Технические средства автоматизации и управления",
+          "type": "лк",
+          "teacher": "Курнасов Е.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "кр. 3,5 н. Теория автоматического управления",
+          "type": "лк",
+          "teacher": "Мешков В.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "7,9 н. Технические средства автоматизации и управления\n11,13,15 н. Теория автоматического управления",
+          "type": "лк\nлк",
+          "teacher": "Курнасов Е.В.\nМешков В.В.",
+          "audience": "Д"
+        }
+      ]
+    },
+    "tuesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Технологическое оборудование автоматизированных производств",
+          "type": "лк",
+          "teacher": "Копытова Е.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Пневматические и гидравлические мехатронные системы",
+          "type": "лк",
+          "teacher": "Макаров В.А.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "wednesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "Военная\nподготовка",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        }
+      ]
+    },
+    "thursday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "Технологическое оборудование автоматизированных производств",
+          "type": "пр",
+          "teacher": "Копытова Е.В.",
+          "audience": "И-201"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Теория автоматического управления",
+          "type": "пр",
+          "teacher": "Копытова Е.В.",
+          "audience": "И-201"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "пр",
+          "teacher": "Верещагин А.А.",
+          "audience": "ивц-110"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "friday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "13,15 н. Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "1,5,9,13 н. Технические средства автоматизации и управления\n3,11 н. Пневматические и гидравлические мехатронные системы (1 п/г)\n3,11 н. Пневматические и гидравлические мехатронные системы (2 п/г)\n7,15 н. Технологическое оборудование автоматизированных производств (1 п/г)\n7,15 н. Технологическое оборудование автоматизированных производств (2 п/г)",
+          "type": "пр\nлаб\nлаб\nлаб\nлаб",
+          "teacher": "Курнасов Е.В.\nМакаров М.А.\nПетухов А.М.\nМакаров М.А.\nПетухов А.М.",
+          "audience": "Г-212\nГ-212\nГ-212\nГ-212\nГ-212"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "1,5,9,13 н. Технические средства автоматизации и управления\n3,11 н. Пневматические и гидравлические мехатронные системы (1 п/г)\n3,11 н. Пневматические и гидравлические мехатронные системы (2 п/г)\n7,15 н. Технологическое оборудование автоматизированных производств (1 п/г)\n7,15 н. Технологическое оборудование автоматизированных производств (2 п/г)",
+          "type": "пр\nлаб\nлаб\nлаб\nлаб",
+          "teacher": "Курнасов Е.В.\nМакаров М.А.\nПетухов А.М.\nМакаров М.А.\nПетухов А.М.",
+          "audience": "Г-212\nГ-212\nГ-212\nГ-212\nГ-212"
+        }
+      ]
+    },
+    "saturday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "Технологии автоматизированных производств",
+          "type": "лк",
+          "teacher": "Панайоти В.А.",
+          "audience": "А-309"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Технологии автоматизированных производств",
+          "type": "пр",
+          "teacher": "Руднева Л.Ю.",
+          "audience": "А-213-м"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "11 н. Технологии автоматизированных производств",
+          "type": "лк",
+          "teacher": "Панайоти В.А.",
+          "audience": "А-207"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    }
+  },
+  "even_week": {
+    "monday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "кр. 14 н. Технические средства автоматизации и управления",
+          "type": "лк",
+          "teacher": "Курнасов Е.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "кр. 14 н. Теория автоматического управления",
+          "type": "лк",
+          "teacher": "Мешков В.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "tuesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "14,16 н. Гражданская оборона\n10,12 н. Национальная система информационной безопасности",
+          "type": "лк\nлк",
+          "teacher": "Михайлов В.М.\nГригорьев В.Р.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "лк",
+          "teacher": "Тулинов С.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Технологическое оборудование автоматизированных производств",
+          "type": "лк",
+          "teacher": "Копытова Е.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Пневматические и гидравлические мехатронные системы",
+          "type": "лк",
+          "teacher": "Макаров В.А.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "wednesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "с/р",
+          "teacher": "",
+          "audience": "каф"
+        }
+      ]
+    },
+    "thursday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "4,8,12,16 н. Теория автоматического управления (1 п/г)\n4,8,12,16 н. Теория автоматического управления (2 п/г)",
+          "type": "лаб\nлаб",
+          "teacher": "Сухатерин А.Б.\nАнтонов С.В.",
+          "audience": "ивц-105-2\nивц-105-2"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "2-8 н. Пневматические и гидравлические мехатронные системы\n10-16 н. Пневматические и гидравлические мехатронные системы",
+          "type": "пр\nпр",
+          "teacher": "Макаров В.А.\nМакаров В.А.",
+          "audience": "Г-307\nА-221"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "пр",
+          "teacher": "Верещагин А.А.",
+          "audience": "ивц-110"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "friday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Практика по получению профессиональных умений и опыта профессиональной деятельности",
+          "type": "пр",
+          "teacher": "",
+          "audience": "каф"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "2,6,10,14 н. Технические средства автоматизации и управления (1 п/г)\n2,6,10,14 н. Технические средства автоматизации и управления (2 п/г)",
+          "type": "лаб\nлаб",
+          "teacher": "Курнасов Е.В.\nРылов С.А.",
+          "audience": "Г-212\nГ-212"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "2,6,10,14 н. Технические средства автоматизации и управления (1 п/г)\n2,6,10,14 н. Технические средства автоматизации и управления (2 п/г)",
+          "type": "лаб\nлаб",
+          "teacher": "Курнасов Е.В.\nРылов С.А.",
+          "audience": "Г-212\nГ-212"
+        }
+      ]
+    },
+    "saturday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "кр. 12 н. Технологии автоматизированных производств",
+          "type": "лк",
+          "teacher": "Панайоти В.А.",
+          "audience": "А-309"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "2,6,10,14 н. Технологии автоматизированных производств (1 п/г)\n2,6,10,14 н. Технологии автоматизированных производств (2 п/г)",
+          "type": "лаб\nлаб",
+          "teacher": "Панайоти В.А.\nРуднева Л.Ю.",
+          "audience": "Г-212\nГ-212"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    }
+  }
+}

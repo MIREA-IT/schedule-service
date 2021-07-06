@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 	"testing"
-	"therealmone.github.io/mirea-schedule-bot/dto"
-	"therealmone.github.io/mirea-schedule-bot/utils"
+	"therealmone.github.io/mirea-schedule-bot/src/dto"
+	"therealmone.github.io/mirea-schedule-bot/src/utils"
 )
 
 var (
@@ -59,8 +59,8 @@ func TestGetSchedules(t *testing.T) {
 	for i := range schedules {
 		schedule := schedules[i]
 
-		if schedule.Name == "" {
-			t.Fatal("Schedule name is empty")
+		if len(schedule.Groups) == 0 {
+			t.Fatal("Schedule is empty")
 		}
 	}
 

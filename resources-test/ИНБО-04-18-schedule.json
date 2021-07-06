@@ -1,0 +1,847 @@
+{
+  "group_code": "ИНБО-04-18",
+  "odd_week": {
+    "monday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "15,17 н. Информационные технологии бизнес планирования",
+          "type": "пр",
+          "teacher": "Черняускас В.В.",
+          "audience": "И-205-а"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "15,17 н. Информационные технологии бизнес планирования",
+          "type": "пр",
+          "teacher": "Черняускас В.В.",
+          "audience": "И-205-а"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "кр. 5 н. Стандартизация информационных технологий",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "И-205-б"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "кр. 5 н. Стандартизация информационных технологий",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "И-205-б"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "кр. 3,5 н. Информационные технологии бизнес планирования",
+          "type": "пр",
+          "teacher": "Черняускас В.В.",
+          "audience": "И-205-а"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "кр. 3,5 н. Информационные технологии бизнес планирования",
+          "type": "пр",
+          "teacher": "Черняускас В.В.",
+          "audience": "И-205-а"
+        }
+      ]
+    },
+    "tuesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Архитектура организаций",
+          "type": "лк",
+          "teacher": "Лагунова А.Д.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Информационные технологии бизнес планирования",
+          "type": "лк",
+          "teacher": "Пяткин В.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "Предметно-ориентированные информационные системы",
+          "type": "лк",
+          "teacher": "Одинцова М.А.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "Проектирование информационных систем",
+          "type": "лк",
+          "teacher": "Смоленцева Т.Е.",
+          "audience": "Д"
+        }
+      ]
+    },
+    "wednesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "13 н. Администрирование баз данных (1 п/г)",
+          "type": "пр",
+          "teacher": "Толмасов Р.С.",
+          "audience": "И-202-а"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "13 н. Администрирование баз данных (1 п/г)",
+          "type": "пр",
+          "teacher": "Толмасов Р.С.",
+          "audience": "И-202-а"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "1,5,9,13 н. Предметно-ориентированные информационные системы (1 п/г)\n3,7,11,15 н. Предметно-ориентированные информационные системы (2 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Свищёв А.В.\nСвищёв А.В.",
+          "audience": "Г-310\nГ-310"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "1,5,9,13 н. Предметно-ориентированные информационные системы (1 п/г)\n3,7,11,15 н. Предметно-ориентированные информационные системы (2 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Свищёв А.В.\nСвищёв А.В.",
+          "audience": "Г-310\nГ-310"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "3,7,11,15 н. Проектирование информационных систем",
+          "type": "пр",
+          "teacher": "Леонов Д.А.",
+          "audience": "А-418"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "3,7,11,15 н. Проектирование информационных систем",
+          "type": "пр",
+          "teacher": "Леонов Д.А.",
+          "audience": "А-418"
+        }
+      ]
+    },
+    "thursday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "friday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "пр",
+          "teacher": "Круглов А.М.",
+          "audience": "ивц-108"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Компьютерная графика",
+          "type": "пр",
+          "teacher": "Синицын А.В.",
+          "audience": "Г-227-2"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Компьютерная графика",
+          "type": "пр",
+          "teacher": "Синицын А.В.",
+          "audience": "Г-227-2"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "saturday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    }
+  },
+  "even_week": {
+    "monday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "16 н. Информационные технологии бизнес планирования (2 п/г)",
+          "type": "пр",
+          "teacher": "Черняускас В.В.",
+          "audience": "И-205-а"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "10,12 н. Проектирование информационных систем (2 п/г)\n16 н. Информационные технологии бизнес планирования (2 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Леонов Д.А.\nЧерняускас В.В.",
+          "audience": "А-418\nИ-205-а"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "2,6,10 н. Администрирование баз данных (1 п/г)\n4 н. Администрирование баз данных (2 п/г)\n8,12,16 н. Администрирование баз данных (2 п/г)\n2,6,10 н. Информационные технологии бизнес планирования (2 п/г)\n4,8,12,16 н. Информационные технологии бизнес планирования (1 п/г)",
+          "type": "пр\nпр\nпр\nпр\nпр",
+          "teacher": "Толмасов Р.С.\nТолмасов Р.С.\nТолмасов Р.С.\nЧерняускас В.В.\nЧерняускас В.В.",
+          "audience": "И-204-в\nИ-205-а\nИ-204-в\nА-423\nА-423"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "2,6,10 н. Администрирование баз данных (1 п/г)\n4 н. Администрирование баз данных (2 п/г)\n8,12,16 н. Администрирование баз данных (2 п/г)\n2,6,10 н. Информационные технологии бизнес планирования (2 п/г)\n4,8,12,16 н. Информационные технологии бизнес планирования (1 п/г)",
+          "type": "пр\nпр\nпр\nпр\nпр",
+          "teacher": "Толмасов Р.С.\nТолмасов Р.С.\nТолмасов Р.С.\nЧерняускас В.В.\nЧерняускас В.В.",
+          "audience": "И-204-в\nИ-205-а\nИ-204-в\nА-423\nА-423"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "2,6,10 н. Проектирование информационных систем (2 п/г)\n4,8,12,16 н. Проектирование информационных систем (1 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Леонов Д.А.\nЛеонов Д.А.",
+          "audience": "А-418\nА-418"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "2,6,10 н. Проектирование информационных систем (2 п/г)\n4,8,12,16 н. Проектирование информационных систем (1 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Леонов Д.А.\nЛеонов Д.А.",
+          "audience": "А-418\nА-418"
+        }
+      ]
+    },
+    "tuesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Архитектура организаций",
+          "type": "лк",
+          "teacher": "Лагунова А.Д.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Стандартизация информационных технологий",
+          "type": "лк",
+          "teacher": "Лагунова А.Д.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "Администрирование баз данных",
+          "type": "лк",
+          "teacher": "Смоленцева Т.Е.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "Проектирование информационных систем",
+          "type": "лк",
+          "teacher": "Смоленцева Т.Е.",
+          "audience": "Д"
+        }
+      ]
+    },
+    "wednesday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "Компьютерная графика",
+          "type": "лк",
+          "teacher": "Болбаков Р.Г.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "лк",
+          "teacher": "Тулинов С.В.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "10,12 н. Гражданская оборона\n14,16 н. Национальная система информационной безопасности",
+          "type": "лк\nлк",
+          "teacher": "Михайлов В.М.\nГригорьев В.Р.",
+          "audience": "Д"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "thursday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "10 н. Стандартизация информационных технологий",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "Г-304"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "10 н. Стандартизация информационных технологий",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "Г-304"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "10 н. Архитектура организаций",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "И-202-б"
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "10 н. Архитектура организаций",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "И-202-б"
+        }
+      ]
+    },
+    "friday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "Основы сетевых технологий",
+          "type": "пр",
+          "teacher": "Круглов А.М.",
+          "audience": "ивц-108"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "2,6,10,14 н. Компьютерная графика (1 п/г)\n4,8,12,16 н. Компьютерная графика (2 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Синицын А.В.\nСиницын А.В.",
+          "audience": "Г-227-2"
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "2,6,10,14 н. Компьютерная графика (1 п/г)\n4,8,12,16 н. Компьютерная графика (2 п/г)",
+          "type": "пр\nпр",
+          "teacher": "Синицын А.В.\nСиницын А.В.",
+          "audience": "Г-227-2"
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    },
+    "saturday": {
+      "lessons": [
+        {
+          "number": {
+            "Number": 1,
+            "StartTime": "9-00",
+            "EndTime": "10-30"
+          },
+          "name": "4,8,16 н. Архитектура организаций",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "ивц-104"
+        },
+        {
+          "number": {
+            "Number": 2,
+            "StartTime": "10-40",
+            "EndTime": "12-10"
+          },
+          "name": "4,8,16 н. Архитектура организаций",
+          "type": "пр",
+          "teacher": "Лагунова А.Д.",
+          "audience": "ивц-104"
+        },
+        {
+          "number": {
+            "Number": 3,
+            "StartTime": "12-40",
+            "EndTime": "14-10"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 4,
+            "StartTime": "14-20",
+            "EndTime": "15-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 5,
+            "StartTime": "16-20",
+            "EndTime": "17-50"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        },
+        {
+          "number": {
+            "Number": 6,
+            "StartTime": "18-00",
+            "EndTime": "19-30"
+          },
+          "name": "",
+          "type": "",
+          "teacher": "",
+          "audience": ""
+        }
+      ]
+    }
+  }
+}

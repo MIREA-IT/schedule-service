@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
-	"therealmone.github.io/mirea-schedule-bot/controller"
+	"therealmone.github.io/mirea-schedule-bot/src/controller"
 )
 
 const (
