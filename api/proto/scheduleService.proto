@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "src/api";
+
+package api;
+
+service ScheduleService {
+  rpc GetGroupSchedule(GroupScheduleRequest) returns (GroupSchedule) {}
+}
+
+message GroupScheduleRequest {
+  string groupCode = 1;
+  string initiatorUser = 2;
+}
+
+message GroupSchedule {
+  string groupCode = 1;
+  Week oddWeek = 2;
+  Week evenWeek = 3;
+}
+
+message Week {
+  WeekDay monday = 1;
+  WeekDay tuesday = 2;
+  WeekDay wednesday = 3;
+  WeekDay thursday = 4;
+  WeekDay friday = 5;
+  WeekDay saturday = 6;
+}
+
+message WeekDay {
+  repeated Lesson lessons = 1;
+}
+
+message Lesson {
+  uint32 number = 1;
+  string name = 2;
+  string type = 3;
+  string teacher = 4;
+  string audience = 5;
+}
+

@@ -2,21 +2,19 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
+	"google.golang.org/grpc"
 	"log"
-	"net/http"
+	"mireait.github.io/mirea-schedule-bot/src/api"
+	"mireait.github.io/mirea-schedule-bot/src/server"
+	"mireait.github.io/mirea-schedule-bot/src/service"
+	"net"
 	"os"
 	"strconv"
-	"therealmone.github.io/mirea-schedule-bot/src/controller"
 )
 
 const (
-	get  = "GET"
-	post = "POST"
-	put  = "PUT"
-
 	serverPostEnvVariableName = "SERVER_PORT"
-	defaultPort               = 8080
+	defaultPort               = 50051
 )
 
 func init() {
@@ -24,11 +22,26 @@ func init() {
 }
 
 func main() {
-	address := fmt.Sprintf(":%d", resolveServerPort())
+	port := fmt.Sprintf(":%d", resolveServerPort())
 
-	log.Printf("Handilg requests on address: %s\n", address)
+	listener, err := net.Listen("tcp", port)
+	if err != nil {
+		log.Fatalf("Failed to listen tcp on port %s: %s", port, err)
+	}
 
-	log.Fatal(http.ListenAndServe(address, handlers()))
+	grpcServer := grpc.NewServer()
+
+	scheduleServer := &server.ScheduleServer{
+		ScheduleService: service.NewScheduleService("./resources/ИИТ_3к_20-21_весна.xlsx"),
+	}
+
+	api.RegisterScheduleServiceServer(grpcServer, scheduleServer)
+
+	log.Printf("Handilg requests on %s\n", listener.Addr())
+
+	if err := grpcServer.Serve(listener); err != nil {
+		log.Fatal("Failed to serve: ", err)
+	}
 }
 
 func resolveServerPort() int {
@@ -45,13 +58,4 @@ func resolveServerPort() int {
 	} else {
 		return defaultPort
 	}
-}
-
-func handlers() http.Handler {
-	router := mux.NewRouter()
-
-	router.HandleFunc("/api/health", controller.CheckHealth).Methods(get)
-	router.HandleFunc("/api/schedules", controller.GetSchedules).Methods(get)
-
-	return router
 }

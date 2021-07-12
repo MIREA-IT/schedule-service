@@ -1,69 +1,45 @@
 {
-  "group_code": "ИКБО-13-18",
-  "odd_week": {
+  "groupCode": "ИКБО-13-18",
+  "oddWeek": {
     "monday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "кр. 5 н. Компьютерная графика",
           "type": "пр",
           "teacher": "Пушкин А.А.",
           "audience": "Г-227-1"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "кр. 5 н. Компьютерная графика",
           "type": "пр",
           "teacher": "Пушкин А.А.",
           "audience": "Г-227-1"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "кр. 5 н. Основы научно-технического творчества",
           "type": "пр",
           "teacher": "Чехарин Е.Е.",
           "audience": "Г-227-2"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
+          "number": 4,
           "name": "3 н. Тестирование и отладка программного обеспечения",
           "type": "пр",
           "teacher": "Алпатов А.Н.",
           "audience": "Г-226-1"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
+          "number": 5,
           "name": "7 н. Компьютерная графика\n9 н. Системное программное обеспечение (1 п/г)",
           "type": "пр\nпр",
           "teacher": "Пушкин А.А.\nКоваленко М.А.",
           "audience": "Г-226-1\nГ-226-1"
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
+          "number": 6,
           "name": "7 н. Компьютерная графика\n9 н. Системное программное обеспечение (1 п/г)",
           "type": "пр\nпр",
           "teacher": "Пушкин А.А.\nКоваленко М.А.",
@@ -74,136 +50,62 @@
     "tuesday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
-          "name": "Военная\nподготовка",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 1,
+          "name": "Военная\nподготовка"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 2
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 3
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     },
     "wednesday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "Основы сетевых технологий",
           "type": "пр",
           "teacher": "Верещагин А.А.",
           "audience": "Д-321"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "11 н. Основы научно-технического творчества",
           "type": "пр",
           "teacher": "Чехарин Е.Е.",
           "audience": "Г-226-1"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "11 н. Теория систем и системный анализ",
           "type": "пр",
           "teacher": "Демидова Л.А.",
           "audience": "ивц-105-2"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "………………………",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4,
+          "name": "………………………"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
+          "number": 5,
           "name": "9,11 н. Гражданская оборона\n13,15 н. Национальная система информационной безопасности",
           "type": "лк\nлк",
           "teacher": "Михайлов В.М.\nГригорьев В.Р.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
+          "number": 6,
           "name": "Проектирование информационных систем",
           "type": "лк",
           "teacher": "Лобанов А.А.",
@@ -214,136 +116,64 @@
     "thursday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "Теория систем и системный анализ",
           "type": "лк",
           "teacher": "Демидова Л.А.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "Системное программное обеспечение",
           "type": "лк",
           "teacher": "Алпатов А.Н.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "Интеллектуальные информационные системы",
           "type": "лк",
           "teacher": "Райков А.Н.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     },
     "friday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 1
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 2
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 3
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
+          "number": 4,
           "name": "Интеллектуальные информационные системы",
           "type": "пр",
           "teacher": "Рачков А.В.",
           "audience": "Г-226-2"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
+          "number": 5,
           "name": "1,5 н. Проектирование информационных систем (1 п/г)\n3,7 н. Проектирование информационных систем (2 п/г)\n9,13 н. Проектирование информационных систем (1 п/г)\n11,15 н. Проектирование информационных систем (2 п/г)",
           "type": "пр\nпр\nпр\nпр",
           "teacher": "Братусь Н.В.\nБратусь Н.В.\nЛобанов А.А.\nЛобанов А.А.",
           "audience": "Г-226-1\nГ-226-1\nГ-226-1\nГ-226-1"
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
+          "number": 6,
           "name": "1,5 н. Проектирование информационных систем (1 п/г)\n3,7 н. Проектирование информационных систем (2 п/г)\n9,13 н. Проектирование информационных систем (1 п/г)\n11,15 н. Проектирование информационных систем (2 п/г)",
           "type": "пр\nпр\nпр\nпр",
           "teacher": "Братусь Н.В.\nБратусь Н.В.\nЛобанов А.А.\nЛобанов А.А.",
@@ -354,278 +184,131 @@
     "saturday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "Теория систем и системный анализ",
           "type": "пр",
           "teacher": "Демидова Л.А.",
           "audience": "ивц-110"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "1-7 н. Проектирование информационных систем\n9-15 н. Проектирование информационных систем",
           "type": "пр\nпр",
           "teacher": "Лобанов А.А.\nЛобанов А.А.",
           "audience": "ивц-109\nГ-227-1"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "11,13 н. Тестирование и отладка программного обеспечения",
           "type": "пр",
           "teacher": "Челноков К.А.",
           "audience": "ивц-105-2"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     }
   },
-  "even_week": {
+  "evenWeek": {
     "monday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "2,6,10 н. Компьютерная графика (1 п/г)\n4,8,12,16 н. Компьютерная графика (2 п/г)",
           "type": "пр\nпр",
           "teacher": "Меркулов Е.С.\nМеркулов Е.С.",
           "audience": "Г-227-1"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "2,6,10 н. Компьютерная графика (1 п/г)\n4,8,12,16 н. Компьютерная графика (2 п/г)",
           "type": "пр\nпр",
           "teacher": "Меркулов Е.С.\nМеркулов Е.С.",
           "audience": "Г-227-1"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "2,6,10 н. Системное программное обеспечение (1 п/г)\n4,8,12,16 н. Системное программное обеспечение (2 п/г)",
           "type": "пр\nпр",
           "teacher": "Коваленко М.А.\nКоваленко М.А.",
           "audience": "Г-310\nГ-310"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
+          "number": 4,
           "name": "2,6,10 н. Системное программное обеспечение (1 п/г)\n4,8,12,16 н. Системное программное обеспечение (2 п/г)",
           "type": "пр\nпр",
           "teacher": "Коваленко М.А.\nКоваленко М.А.",
           "audience": "Г-310\nГ-310"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     },
     "tuesday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 1
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 2
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 3
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     },
     "wednesday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "Основы сетевых технологий",
           "type": "пр",
           "teacher": "Верещагин А.А.",
           "audience": "Д-321"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 2
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
-          "name": "………………………",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 3,
+          "name": "………………………"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
+          "number": 4,
           "name": "Компьютерная графика",
           "type": "лк",
           "teacher": "Болбаков Р.Г.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
+          "number": 5,
           "name": "Основы сетевых технологий",
           "type": "лк",
           "teacher": "Тулинов С.В.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
+          "number": 6,
           "name": "Проектирование информационных систем",
           "type": "лк",
           "teacher": "Лобанов А.А.",
@@ -636,136 +319,68 @@
     "thursday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "Теория систем и системный анализ",
           "type": "лк",
           "teacher": "Демидова Л.А.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "Тестирование и отладка программного обеспечения",
           "type": "лк",
           "teacher": "Алпатов А.Н.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "Основы научно-технического творчества",
           "type": "лк",
           "teacher": "Чехарин Е.Е.",
           "audience": "Д"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     },
     "friday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 1
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 2
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
+          "number": 3,
           "name": "10 н. Компьютерная графика (1 п/г)",
           "type": "пр",
           "teacher": "Меркулов Е.С.",
           "audience": "Г-227-1"
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
+          "number": 4,
           "name": "10 н. Компьютерная графика (1 п/г)\n14,16 н. Системное программное обеспечение",
           "type": "пр\nпр",
           "teacher": "Меркулов Е.С.\nКоваленко М.А.",
           "audience": "Г-227-1\nГ-227-1"
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
+          "number": 5,
           "name": "кр. 12 н. Системное программное обеспечение",
           "type": "пр",
           "teacher": "Коваленко М.А.",
           "audience": "ивц-104"
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
+          "number": 6,
           "name": "кр. 12 н. Системное программное обеспечение",
           "type": "пр",
           "teacher": "Коваленко М.А.",
@@ -776,70 +391,30 @@
     "saturday": {
       "lessons": [
         {
-          "number": {
-            "Number": 1,
-            "StartTime": "9-00",
-            "EndTime": "10-30"
-          },
+          "number": 1,
           "name": "кр. 12 н. Теория систем и системный анализ",
           "type": "пр",
           "teacher": "Демидова Л.А.",
           "audience": "ивц-110"
         },
         {
-          "number": {
-            "Number": 2,
-            "StartTime": "10-40",
-            "EndTime": "12-10"
-          },
+          "number": 2,
           "name": "кр. 2,12 н. Тестирование и отладка программного обеспечения",
           "type": "пр",
           "teacher": "Челноков К.А.",
           "audience": "ивц-105-2"
         },
         {
-          "number": {
-            "Number": 3,
-            "StartTime": "12-40",
-            "EndTime": "14-10"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 3
         },
         {
-          "number": {
-            "Number": 4,
-            "StartTime": "14-20",
-            "EndTime": "15-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 4
         },
         {
-          "number": {
-            "Number": 5,
-            "StartTime": "16-20",
-            "EndTime": "17-50"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 5
         },
         {
-          "number": {
-            "Number": 6,
-            "StartTime": "18-00",
-            "EndTime": "19-30"
-          },
-          "name": "",
-          "type": "",
-          "teacher": "",
-          "audience": ""
+          "number": 6
         }
       ]
     }

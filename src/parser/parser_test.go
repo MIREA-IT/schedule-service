@@ -3,10 +3,9 @@ package parser
 import (
 	"encoding/json"
 	"io/ioutil"
+	"mireait.github.io/mirea-schedule-bot/src/api"
 	"reflect"
 	"testing"
-	"therealmone.github.io/mirea-schedule-bot/src/dto"
-	"therealmone.github.io/mirea-schedule-bot/src/utils"
 )
 
 func TestScheduleLoad(t *testing.T) {
@@ -16,17 +15,17 @@ func TestScheduleLoad(t *testing.T) {
 		t.Fatal("error: ", err)
 	}
 
-	if len(schedule.Groups) != 33 {
+	if len(schedule) != 33 {
 		t.Fatal("invalid groups count")
 	}
 
-	assertGroupSchedule(&schedule.Groups[0], "ИАБО-01-18-schedule.json", t)
-	assertGroupSchedule(&schedule.Groups[16], "ИКБО-13-18-schedule.json", t)
-	assertGroupSchedule(&schedule.Groups[32], "ИНБО-04-18-schedule.json", t)
+	assertGroupSchedule(schedule["ИАБО-01-18"], "ИАБО-01-18-schedule.json", t)
+	assertGroupSchedule(schedule["ИКБО-13-18"], "ИКБО-13-18-schedule.json", t)
+	assertGroupSchedule(schedule["ИНБО-04-18"], "ИНБО-04-18-schedule.json", t)
 }
 
-func assertGroupSchedule(group *dto.Group, expectedScheduleJson string, t *testing.T) {
-	expectedGroup := new(dto.Group)
+func assertGroupSchedule(group *api.GroupSchedule, expectedScheduleJson string, t *testing.T) {
+	expectedGroup := new(api.GroupSchedule)
 
 	bytes, err := ioutil.ReadFile("../../resources-test/" + expectedScheduleJson)
 	if err != nil {
@@ -39,7 +38,6 @@ func assertGroupSchedule(group *dto.Group, expectedScheduleJson string, t *testi
 	}
 
 	if !reflect.DeepEqual(&expectedGroup, &group) {
-		t.Fatalf("Group schedule not equals to expected.\nExpected: %s\nActual: %s",
-			utils.Marshal(expectedGroup), utils.Marshal(group))
+		t.Fatal("Group schedule not equals to expected")
 	}
 }

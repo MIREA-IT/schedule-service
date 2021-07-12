@@ -3,10 +3,9 @@ package parser
 import (
 	"github.com/360EntSecGroup-Skylar/excelize/v2"
 	"log"
+	"mireait.github.io/mirea-schedule-bot/src/api"
 	"regexp"
 	"strconv"
-	"therealmone.github.io/mirea-schedule-bot/src/dto"
-	"therealmone.github.io/mirea-schedule-bot/src/enum"
 )
 
 const (
@@ -14,13 +13,13 @@ const (
 )
 
 var (
-	WeekDayMapping = map[int]func(week *dto.Week, day *dto.WeekDay){
-		0: func(week *dto.Week, day *dto.WeekDay) { week.Monday = *day },
-		1: func(week *dto.Week, day *dto.WeekDay) { week.Tuesday = *day },
-		2: func(week *dto.Week, day *dto.WeekDay) { week.Wednesday = *day },
-		3: func(week *dto.Week, day *dto.WeekDay) { week.Thursday = *day },
-		4: func(week *dto.Week, day *dto.WeekDay) { week.Friday = *day },
-		5: func(week *dto.Week, day *dto.WeekDay) { week.Saturday = *day },
+	WeekDayMapping = map[int]func(week *api.Week, day *api.WeekDay){
+		0: func(week *api.Week, day *api.WeekDay) { week.Monday = day },
+		1: func(week *api.Week, day *api.WeekDay) { week.Tuesday = day },
+		2: func(week *api.Week, day *api.WeekDay) { week.Wednesday = day },
+		3: func(week *api.Week, day *api.WeekDay) { week.Thursday = day },
+		4: func(week *api.Week, day *api.WeekDay) { week.Friday = day },
+		5: func(week *api.Week, day *api.WeekDay) { week.Saturday = day },
 	}
 )
 
@@ -33,8 +32,8 @@ type ScheduleContext struct {
 	audiences     *[]string
 }
 
-func Parse(scheduleFileName string) (*dto.Schedule, error) {
-	var schedule dto.Schedule
+func Parse(scheduleFileName string) (map[string]*api.GroupSchedule, error) {
+	schedule := make(map[string]*api.GroupSchedule)
 
 	unparsedSchedule, err := excelize.OpenFile(scheduleFileName)
 	if err != nil {
@@ -63,20 +62,20 @@ func Parse(scheduleFileName string) (*dto.Schedule, error) {
 				audiences:     &cols[index+3],
 			}
 
-			schedule.Groups = append(schedule.Groups, collectGroupSchedule(groupCode, &context))
+			schedule[groupCode] = collectGroupSchedule(groupCode, &context)
 		}
 	}
 
-	return &schedule, nil
+	return schedule, nil
 }
 
-func collectGroupSchedule(groupCode string, context *ScheduleContext) dto.Group {
-	oddWeek := new(dto.Week)
-	evenWeek := new(dto.Week)
+func collectGroupSchedule(groupCode string, context *ScheduleContext) *api.GroupSchedule {
+	oddWeek := new(api.Week)
+	evenWeek := new(api.Week)
 
 	for i := 3; i < 75; i += 12 {
-		oddWeekDay := new(dto.WeekDay)
-		evenWeekDay := new(dto.WeekDay)
+		oddWeekDay := new(api.WeekDay)
+		evenWeekDay := new(api.WeekDay)
 
 		for j := i; j < i+12; j++ {
 			lesson := collectLesson(j, context)
@@ -92,16 +91,16 @@ func collectGroupSchedule(groupCode string, context *ScheduleContext) dto.Group 
 		WeekDayMapping[i/12](evenWeek, evenWeekDay)
 	}
 
-	return dto.Group{
+	return &api.GroupSchedule{
 		GroupCode: groupCode,
-		OddWeek:   *oddWeek,
-		EvenWeek:  *evenWeek,
+		OddWeek:   oddWeek,
+		EvenWeek:  evenWeek,
 	}
 }
 
-func collectLesson(rowIndex int, context *ScheduleContext) dto.Lesson {
-	return dto.Lesson{
-		Number:   enum.ByNumber(resolveNumber(context.lessonNumbers, rowIndex)),
+func collectLesson(rowIndex int, context *ScheduleContext) *api.Lesson {
+	return &api.Lesson{
+		Number:   resolveNumber(context.lessonNumbers, rowIndex),
 		Name:     (*context.lessons)[rowIndex],
 		Type:     (*context.typesOfLesson)[rowIndex],
 		Teacher:  (*context.teacherNames)[rowIndex],
@@ -109,7 +108,7 @@ func collectLesson(rowIndex int, context *ScheduleContext) dto.Lesson {
 	}
 }
 
-func resolveNumber(numbers *[]string, i int) int {
+func resolveNumber(numbers *[]string, i int) uint32 {
 	number := (*numbers)[i]
 
 	if len(number) == 0 {
@@ -119,11 +118,11 @@ func resolveNumber(numbers *[]string, i int) int {
 	}
 }
 
-func toInt(s string) int {
+func toInt(s string) uint32 {
 	value, err := strconv.ParseInt(s, 10, 32)
 	if err != nil {
 		log.Fatal("Invalid int: ", err)
 	}
 
-	return int(value)
+	return uint32(value)
 }
